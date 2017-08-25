@@ -6,4 +6,4 @@ Furthermore, Ant has been used to build and run the program. Also it can build t
 
 ---
 Here is one of the fifteen states of a **_Pentadecathlon_**.
-![Pentadecathlon](preview.png "Pentadecathlon")
+![Pentadecathlon](previews/preview.png "Pentadecathlon")
