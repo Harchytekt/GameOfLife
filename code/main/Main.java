@@ -32,20 +32,6 @@ public class Main {
 	 * 		Optional argument for the program.
 	 */
 	public static void main(String[] args) {
-		//Grid grid = new Grid(6, 6);
-		/*grid.getCell(1, 3).setState(true);
-		grid.getCell(2, 1).setState(true);
-		grid.getCell(2, 4).setState(true);
-		grid.getCell(3, 1).setState(true);
-		grid.getCell(3, 4).setState(true);
-		grid.getCell(4, 2).setState(true);*/
-		/*grid.getCell(0, 1).setState(true);
-		grid.getCell(1, 2).setState(true);
-		grid.getCell(2, 0).setState(true);
-		grid.getCell(2, 1).setState(true);
-		grid.getCell(2, 2).setState(true);*/
-
-
 		Grid grid = new Grid(9, 16);
 
 		grid.getCell(2, 4).setState(true);

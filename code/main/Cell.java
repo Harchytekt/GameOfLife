@@ -88,65 +88,6 @@ public class Cell {
 		this.state = state;
 	}
 
-	/*public void setNeighbours() {
-		if (line == 0) {
-			if (column == 0) {
-				neighbours.add(grid.getCell(line, column+1));
-				neighbours.add(grid.getCell(line+1, column));
-				neighbours.add(grid.getCell(line+1, column+1));
-			} else if (column == grid.getColumn()-1) {
-				neighbours.add(grid.getCell(line, column-1));
-				neighbours.add(grid.getCell(line+1, column-1));
-				neighbours.add(grid.getCell(line+1, column));
-			} else {
-				neighbours.add(grid.getCell(line, column-1));
-				neighbours.add(grid.getCell(line, column+1));
-				neighbours.add(grid.getCell(line+1, column-1));
-				neighbours.add(grid.getCell(line+1, column));
-				neighbours.add(grid.getCell(line+1, column+1));
-			}
-		} else if (line == grid.getLine()-1) {
-			if (column == 0) {
-				neighbours.add(grid.getCell(line-1, column));
-				neighbours.add(grid.getCell(line-1, column+1));
-				neighbours.add(grid.getCell(line, column+1));
-			} else if (column == grid.getColumn()-1) {
-				neighbours.add(grid.getCell(line, column-1));
-				neighbours.add(grid.getCell(line-1, column-1));
-				neighbours.add(grid.getCell(line-1, column));
-			} else {
-				neighbours.add(grid.getCell(line, column-1));
-				neighbours.add(grid.getCell(line, column+1));
-				neighbours.add(grid.getCell(line-1, column-1));
-				neighbours.add(grid.getCell(line-1, column));
-				neighbours.add(grid.getCell(line-1, column+1));
-			}
-		} else {
-			if (column == 0) {
-				neighbours.add(grid.getCell(line-1, column));
-				neighbours.add(grid.getCell(line-1, column+1));
-				neighbours.add(grid.getCell(line, column+1));
-				neighbours.add(grid.getCell(line+1, column+1));
-				neighbours.add(grid.getCell(line+1, column));
-			} else if (column == grid.getColumn()-1) {
-				neighbours.add(grid.getCell(line-1, column));
-				neighbours.add(grid.getCell(line-1, column-1));
-				neighbours.add(grid.getCell(line, column-1));
-				neighbours.add(grid.getCell(line+1, column));
-				neighbours.add(grid.getCell(line+1, column-1));
-			} else {
-				neighbours.add(grid.getCell(line-1, column-1));
-				neighbours.add(grid.getCell(line-1, column));
-				neighbours.add(grid.getCell(line-1, column+1));
-				neighbours.add(grid.getCell(line, column-1));
-				neighbours.add(grid.getCell(line, column+1));
-				neighbours.add(grid.getCell(line+1, column-1));
-				neighbours.add(grid.getCell(line+1, column));
-				neighbours.add(grid.getCell(line+1, column+1));
-			}
-		}
-	}*/
-
 	/**
 	 * Updates the neighbours' list of the cell.
 	 */
