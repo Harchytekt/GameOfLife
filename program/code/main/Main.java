@@ -54,8 +54,6 @@ public class Main {
 		grid.getCell(5, 12).setState(true);
 		grid.getCell(6, 11).setState(true);
 
-		grid.showGrid();
-
 		for (int i = 0; i < 16; i++) {
 			System.out.print("\033[H\033[2J");
 			grid.showGrid();
