@@ -7,5 +7,5 @@ Furthermore, Ant has been used to build and run the program. Also it can build t
 It's located in the [program/code/main](program/code/main) folder.
 
 ---
-Here is an animation of the fifteen states of a **_Pentadecathlon_** as displayed in the Terminal _(APNG)_.
+Here is an animation of the fifteen states of a **_Pentadecathlon_** as displayed in the Terminal.
 ![Pentadecathlon](previews/preview.png "Pentadecathlon")
